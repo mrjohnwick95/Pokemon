@@ -1,8 +1,8 @@
 // Configuración base de la API
 const API_BASE_URL = "https://pokemon-ppwv.onrender.com/api";
-const STRAPI_URL = "https://pokemon-backend-o8g1.onrender.com";
+const STRAPI_URL = "https://pokemon-backend-o8g1.onrender.com/api";
 
-// == UTILIDADES ==
+// == UTILIDADES ====
 
 /**
  * Función helper para hacer peticiones HTTP
