@@ -6,11 +6,11 @@ export default ({ env }) => {
   const connections = {
     mysql: {
       connection: {
-        host: env('DATABASE_HOST', 'localhost'),
-        port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'strapi'),
-        user: env('DATABASE_USERNAME', 'strapi'),
-        password: env('DATABASE_PASSWORD', 'strapi'),
+        host: env('DATABASE_HOST', 'dpg-d44ecfpr0fns73au6fvg-a'),
+        port: env.int('DATABASE_PORT', 5432),
+        database: env('DATABASE_NAME', 'pokemon_db_guqq'),
+        user: env('DATABASE_USERNAME', 'pokemon_db_guqq_user'),
+        password: env('DATABASE_PASSWORD', '5wOnofsVWrxijqMQuwQha3sjgdBFM9bD'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
@@ -25,11 +25,11 @@ export default ({ env }) => {
     postgres: {
       connection: {
         connectionString: env('DATABASE_URL'),
-        host: env('DATABASE_HOST', 'localhost'),
+        host: env('DATABASE_HOST', 'dpg-d44ecfpr0fns73au6fvg-a'),
         port: env.int('DATABASE_PORT', 5432),
-        database: env('DATABASE_NAME', 'strapi'),
-        user: env('DATABASE_USERNAME', 'strapi'),
-        password: env('DATABASE_PASSWORD', 'strapi'),
+        database: env('DATABASE_NAME', 'pokemon_db_guqq'),
+        user: env('DATABASE_USERNAME', 'pokemon_db_guqq_user'),
+        password: env('DATABASE_PASSWORD', '5wOnofsVWrxijqMQuwQha3sjgdBFM9bD'),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
